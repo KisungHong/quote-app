@@ -1,0 +1,23 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Figtree', 'Apple SD Gothic Neo', 'Malgun Gothic', -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  background-color: #F7F7F5;
+  color: #0A0A0A;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+@media print {
+  body { background: white; }
+  .no-print { display: none !important; }
+}
